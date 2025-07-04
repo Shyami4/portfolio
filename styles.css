@@ -246,6 +246,11 @@ nav.navbar.scrolled {
   padding: 60px 20px;
 }
 
+.about-section li {
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
 .about-container {
   display: flex;
   justify-content: center;
@@ -568,6 +573,15 @@ form button:hover {
   /* SECTION 4: Contact */
   .contact-section {
     padding: 0 20px;
+  }
+
+  .about-section {
+    padding: 1rem;
+  }
+
+  .about-section p, .about-section li {
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
 }
 
