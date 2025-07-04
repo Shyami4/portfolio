@@ -221,25 +221,30 @@
 
 <!-- CONTACT SECTION -->
 <section id="contact" class="contact-section">
-  <h2>Contact</h2>
-  <div class="group">
-    <div class="text">
-      I'd love to connect! Whether you’re looking to collaborate, discuss opportunities, or just talk data—reach out via the form or email.
-    </div>
-    <form>
+  <div class="contact-left">
+    <h2>Contact</h2>
+    <p>
+      Let's connect! Whether you're exploring collaboration, have a project in mind, or just want to chat data—feel free to reach out.
+      <br><br>
+      You can email me directly at <a href="mailto:shyamig@uci.edu">shyamig@uci.edu</a> or use the form below:
+    </p>
+  </div>
+  <div class="contact-right">
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
       <label for="name">Name</label>
-      <input type="text" id="name" required>
+      <input type="text" name="name" required />
 
       <label for="email">Email</label>
-      <input type="email" id="email" required>
+      <input type="email" name="email" required />
 
       <label for="message">Message</label>
-      <textarea id="message" rows="5" required></textarea>
+      <textarea name="message" rows="5" required></textarea>
 
       <button type="submit">Send Message</button>
     </form>
   </div>
 </section>
+
 
 </main>
 </body>
