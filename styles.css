@@ -33,15 +33,22 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 0 50px;
   height: 50px;
+}
+
+nav .left,
+nav .right {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 nav .left a {
   color: var(--text-color);
   font-size: 22px;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 nav .right a {
@@ -70,6 +77,8 @@ nav.navbar {
   background-color: rgba(255, 255, 255, 0.5);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   backdrop-filter: none;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 nav.navbar.scrolled {
@@ -579,7 +588,7 @@ form button:hover {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   /* NAVBAR */
   nav {
     padding: 0 20px;
