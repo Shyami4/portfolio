@@ -412,6 +412,67 @@ nav.navbar.scrolled {
   object-fit: contain;
 }
 
+/* CERTIFICATIONS SECTION */
+.certifications-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.certifications-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.certification-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.certification-card:hover {
+  transform: scale(1.03);
+}
+
+.certification-card img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.certification-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.certification-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.cert-btn {
+  background-color: #f46b52;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cert-btn i {
+  margin-right: 6px;
+}
+
+
 /* PROJECTS SECTION */
 .projects-section {
   padding: 60px 20px;
