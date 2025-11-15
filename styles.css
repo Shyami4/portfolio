@@ -523,6 +523,13 @@ nav.navbar.scrolled {
   width: 100%;
 }
 
+.project-thumb video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 .project-content {
   padding: 1.2rem;
 }
